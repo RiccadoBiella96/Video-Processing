@@ -1,2 +1,3 @@
 ﻿  Source.cpp
-  esercitazione09.vcxproj -> C:\Users\Luca\Desktop\SUPSI\terza\multimedia\esercitazione9\esercitazione09_02\esercitazione09\x64\Debug\esercitazione09.exe
+c:\users\luca\desktop\supsi\terza\multimedia\esercitazione9\esercitazione09_02\video-processing\esercitazione09\esercitazione09\source.cpp(48): warning C4102: 'cv': unreferenced label
+  esercitazione09.vcxproj -> C:\Users\Luca\Desktop\SUPSI\terza\multimedia\esercitazione9\esercitazione09_02\Video-Processing\esercitazione09\x64\Debug\esercitazione09.exe
