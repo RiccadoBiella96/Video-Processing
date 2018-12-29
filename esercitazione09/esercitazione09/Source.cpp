@@ -84,7 +84,7 @@ int main(int argc, char **argv) {
 				Mat clone = frame.clone();
 				ostringstream str;
 
-				str << "Frame: " << frameNumber << " , colore: " << stri << endl;
+				str << "Frame: " << frameNumber << " , colore: " << stri ;
 
 				putText(clone, str.str(), Point(10, 30), FONT_ITALIC, 0.4, cvScalar(0, 0, 255));
 
@@ -134,11 +134,11 @@ int main(int argc, char **argv) {
 				std::cout << color;
 				Mat clone = frame.clone();
 				std::ostringstream str;
-				str << "Frame: " << frameNumber << " , colore: " << stri << endl;
+				str << "Frame: " << frameNumber << " , colore: " << stri;
 
 
 
-				putText(clone, str.str(), Point(10, 30), FONT_ITALIC, 0.4, cvScalar(0, 0, 255));
+				putText(clone, str.str(), Point(10, 30), FONT_ITALIC, 0.4, cvScalar(0, 255 , 0 ));
 
 				string name = "./destrasinistra" + to_string(cntAutoRight) + ".jpg";
 
