@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 	int cntAutoRight = 0;
 
 
-	VideoCapture cap("C:\\Users\\Luca\\Desktop\\SUPSI\\terza\\multimedia\\esercitazione9\\videoauto.mp4");
+	VideoCapture cap("videoauto.mp4");
 	if (!cap.isOpened())
 		return -1;
 	namedWindow("video", 1);
@@ -80,7 +80,7 @@ int main(int argc, char **argv) {
 				Scalar color = mean(frameAuto, filteredAuto);
 				Color colore{ int(color[0]),int(color[1]),int(color[2]) };
 				string stri = colore.label();
-
+				std::cout << color;
 				Mat clone = frame.clone();
 				ostringstream str;
 
